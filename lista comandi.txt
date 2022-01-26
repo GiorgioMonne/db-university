@@ -1,0 +1,8 @@
+1) SELECT * FROM 'teachers' WHERE 'date_of_birth' like '1990';
+2)SELECT * FROM 'coursesì' WHERe 'cfu' > 10;
+3)SELECT * FROM 'students' WHERE 'date_of_birth' => '1992-01-01';
+4)SELECT * FROM 'courses' WHERE 'period' = 'I semestre' AND 'year' = 1; 
+5)SELECT * FROM 'teachers' WHERE
+6)SELECT * FROM 'teachers' WHERE
+7)SELECT * FROM 'teachers' WHERE
+8)SELECT * FROM 'teachers' WHERE
