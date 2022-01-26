@@ -1,0 +1,13 @@
+
+NON POTEVO FARE ALTRO CHE I COMANDI,NON RIESCO A IMPORTARE IL DATABASE PERCHE HO POCO SPAZIO E NON SO COME CAMBIARLO:(
+
+***PROBLEMA IMPORT RISOLTO IN CLASSE ***
+
+1)SELECT * FROM `students` WHERE `date_of_birth` LIKE '1990%'
+2)SELECT * FROM `courses` WHERE 'cfu' > '10';
+3)SELECT * FROM 'students' WHERE 'date_of_birth' >= '1992-01-01';(metodo errato ma sfangataahahha).SELECT * FROM 'students' WHERE DATEIFF(CURRENT_DATE,'date_of_birth') <= (30 * 365.25) ORDER BY 'students'.'date_of_birth' ASC;
+4)SELECT * FROM 'courses' WHERE 'period' = 'I semestre' AND 'year' = 1; 
+5)SELECT * FROM 'exams' WHERE 'hour' >14 AND 'date' LIKE '2020-06-20':
+6)SELECT * FROM `degrees` WHERE `level` = 'magistrale'
+7)SELECT COUNT 'ID' FROM 'departments'; 
+8)SELECT * FROM 'teachers' WHERE 'phone' IS NOT NULL;
