@@ -1,0 +1,15 @@
+1)SELECT COUNT(id) AS `iscritti_anno`,`enrolment_date`
+FROM `students` 
+GROUP BY `enrolment_date`
+
+2)SELECT COUNT(id) AS `insegnanti_per_edificio`,`office_address`
+FROM `teachers`
+GROUP BY `office_address`
+
+3)SELECT AVG(`vote`),`exam_id`
+FROM `exam_student`
+GROUP BY `exam_id`
+
+4)SELECT COUNT(id),`name`
+FROM `departments`
+GROUP BY `name`
