@@ -1,0 +1,11 @@
+
+NON POTEVO FARE ALTRO CHE I COMANDI,NON RIESCO A IMPORTARE IL DATABASE PERCHE HO POCO SPAZIO E NON SO COME CAMBIARLO:(
+
+1) SELECT * FROM 'teachers' WHERE 'date_of_birth' like '1990';
+2)SELECT * FROM 'courses' WHERe 'cfu' > 10;
+3)SELECT * FROM 'students' WHERE 'date_of_birth' => '1992-01-01';
+4)SELECT * FROM 'courses' WHERE 'period' = 'I semestre' AND 'year' = 1; 
+5)SELECT * FROM 'exams' WHERE 'nome_colonna' >14 AND 'nome_colonna' LIKE '2020-06-20':
+6)SELECT * FROM 'courses' WHERE 'tipo_corso' ='magistrale';
+7)SELECT COUNT 'ID' FROM 'departments'; 
+8)SELECT * FROM 'teachers' WHERE 'phone' IS NOT NULL;
